@@ -13,6 +13,10 @@ PHP 8.0+ (with PDO MySQL and fileinfo), MySQL/MariaDB. Easiest: XAMPP.
 5. Create the admin account in a terminal inside the project folder:
    `php scripts/create_admin.php admin "axcel123456789"`
 6. Visit http://localhost/portfolio-php/ and the admin at http://localhost/portfolio-php/admin/login.php
+7. run terminal: Copy-Item "C:\Users\Administrator\Downloads\portfolio-php\portfolio-php\*" "C:\xampp\htdocs\portfolio-php" -Recurse -Force
+8. run terminal: & C:\xampp\php\php.exe C:\xampp\htdocs\portfolio-php\scripts\create_admin.php admin "axcel123456789"
+9. admin log.in: admin
+10. admin log.pass: axcel123456789
 
 ## Security features
 - PDO prepared statements everywhere (SQL injection)
