@@ -11,7 +11,7 @@ PHP 8.0+ (with PDO MySQL and fileinfo), MySQL/MariaDB. Easiest: XAMPP.
 3. Start Apache + MySQL. In phpMyAdmin → Import → choose `database/schema.sql`.
 4. Edit `config/config.php` (DB user/password, and `base_url` = your folder name).
 5. Create the admin account in a terminal inside the project folder:
-   `php scripts/create_admin.php admin "YourLongPassword123"`
+   `php scripts/create_admin.php admin "axcel123456789"`
 6. Visit http://localhost/portfolio-php/ and the admin at http://localhost/portfolio-php/admin/login.php
 
 ## Security features
